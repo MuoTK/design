@@ -1,0 +1,60 @@
+html {
+	background-color: #f4f4f4;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding-top: 20px;
+}
+
+li {
+	display: inline-block;
+	padding: 100px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+
+.index {
+	padding: 0 0 0 0px;
+	border: 0 0 0 0px;
+	margin: 0 0 0 0px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#header {
+	padding-top: 4%;
+}
+
+#header h1#logo {
+	white-space: nowrap;
+	overflow: hidden;
+	text-indent: 100%;
+	margin: 0 auto 0;
+	padding: 0;
+	background: url(./Tenderness.png) no-repeat center bottom;
+}
+
+#header h1#logo a {
+	display: block;
+	width: 225px;
+	height: 62px;
+	margin: 0 auto;
+}
+
+.link_all .link1:hover{
+	background-color: #64c0d1;
+}
+
+.link_all .link2:hover{
+	background-color: #6dce9a;;
+}
+
+.link_all .link3:hover{
+	background-color: #F270D8;;
+}

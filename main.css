@@ -1,0 +1,189 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html {
+	background-color: #f4f4f4;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding-top: 34px;
+	margin: 0 0 0 0;
+}
+
+li {
+	display: inline-block;
+}
+
+h1 {
+	font-family:"PassionSansPDbe-BookSmallCaps";
+	color: rgb(102, 102, 102);
+	font-size: 150px;
+	letter-spacing: 0.06em;
+	margin-top: 0px;
+	margin-bottom: -55px;
+}
+
+.link_all a {
+	font-size: 45px;
+	color: #404040
+}
+
+.link_all li  {
+	width: 200px;
+	height: 200px;
+	background-color: #fff;
+}
+
+.link_all li a {
+	display: block;
+	line-height: 200px;
+}
+
+#anderh {
+	font-family: 'tendernessregular';
+	font-size: 28px;
+	color: #999999;
+	padding: 0 0 0 0px;
+	margin: 0 0 0 0px;
+}
+
+.index {
+	padding: 0 0 0 0px;
+	border: 0 0 0 0px;
+	margin: 0 0 0 0px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+.index#yoko {
+	padding: 0 20px
+}
+
+.link_all strong {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	margin-bottom: 0.3em;
+}
+
+.link1 strong:before {
+	background-image: url('./img/blog.svg');
+}
+
+/*
+.index#side nav .link1 a storong:before {
+	background-image: url('./img/blog.svg');
+}
+
+.index#side nav .link1 a:hover storong:before {
+	background-image: url('./img/blog_white.svg');
+}
+
+*/
+
+
+.link_all a:hover {
+	color: #fff;
+}
+
+.link_all .link1:hover{
+	background-color: #64c0d1;
+}
+
+.link_all .link2:hover{
+	background-color: #6dce9a;
+}
+
+.link_all .link3:hover{
+	background-color: #ff88c2;
+}
+
+#side {
+	padding: 2% 4% 4%;
+}
+
+@font-face {
+    font-family: 'tendernessregular';
+    src: url('Tenderness-webfont.eot');
+    src: url('Tenderness-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Tenderness-webfont.woff') format('woff'),
+         url('Tenderness-webfont.ttf') format('truetype'),
+         url('Tenderness-webfont.svg#tendernessregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+	font-family:"PassionSansPDbe-BookSmallCaps";
+	src:url("PassionSansPDbe-BookSmallCa.eot?") format("eot"),
+	url("PassionSansPDbe-BookSmallCa.woff") format("woff"),
+	url("PassionSansPDbe-BookSmallCa.ttf") format("truetype"),
+	url("PassionSansPDbe-BookSmallCa.svg#PassionSansPDbe-BookSmallCaps") format("svg");
+	font-weight:normal;font-style:normal;
+}
+
+
+
+
+/*
+
+.link_all {
+	padding-left: 0px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.link_all:before,
+.link_all:after {
+    content: " ";
+    display: table;
+}
+.link_all:after {
+    clear: both;
+}
+.link_all {
+    *zoom: 1;
+}
+
+.link_all li{
+	position:relative;
+	float: left;
+	list-style: none;
+    padding: 30px;
+}
+
+.link1 {
+
+}
+
+.link2 {
+	
+}
+
+.link3 {
+	
+}
+
+ul {
+
+}
+
+li {
+	display: inline-block;
+	letter-spacing: normal;
+	text-align: center;
+}
+
+li a {
+	display: inline-block;
+	margin-top: 10px;
+	width: 80%;
+	padding: 5px 8px;
+}
+*/
