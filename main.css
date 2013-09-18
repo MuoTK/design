@@ -37,8 +37,13 @@ h1 {
 .link_all li  {
 	width: 200px;
 	height: 200px;
-	background-color: #fff;
 }
+
+.link_all .link1,.link_all .link2,.link_all .link3 {
+	background-color: #fff;
+	-webkit-transition: background-color 0.5s linear;
+}
+
 
 .link_all li a {
 	display: block;
@@ -105,6 +110,7 @@ h1 {
 .link_all .link3:hover{
 	background-color: #ff88c2;
 }
+
 
 #side {
 	padding: 2% 4% 4%;
