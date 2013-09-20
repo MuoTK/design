@@ -1,24 +1,25 @@
 
-//-----[ Reset ]-----//
+/*-----[ Reset ]-----*/
 *{
   margin: 0;
   padding: 0;
 }
 
-//-----[ Initialize ]-----//
+/*-----[ Initialize ]-----*/
 
-html {
+body {
   background-color: #f4f4f4;
+  color: #c00;
 }
 
 a {
   text-decoration: none;
 }
 
-//-----[ Header ]-----//
+/*-----[ Header ]-----*/
 
 h1 {
-  font-family:"PassionSansPDbe-BookSmallCaps";
+  font-family: "PassionSansPDbe-BookSmallCaps";
   color: rgb(102, 102, 102);
   font-size: 150px;
   letter-spacing: 0.06em;
@@ -27,7 +28,7 @@ h1 {
 }
 
 
-//-----[ Navigation ]-----//
+/*-----[ Navigation ]-----*/
 
 .link_all {
   padding-top: 34px;
@@ -66,7 +67,7 @@ h1 {
 .link_all .link3:hover{ background-color: #ff88c2; }
 
 
-//-----[  ]-----//
+/*-----[  ]-----*/
 
 #anderh {
   font-family: 'tendernessregular';
