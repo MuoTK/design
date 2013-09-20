@@ -39,11 +39,10 @@ h1 {
 	height: 200px;
 }
 
-.link_all .link1,.link_all .link2,.link_all .link3 {
+.link_all li{
 	background-color: #fff;
 	-webkit-transition: background-color 0.5s linear;
 }
-
 
 .link_all li a {
 	display: block;
