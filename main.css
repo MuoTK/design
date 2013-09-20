@@ -1,7 +1,11 @@
+
+//-----[ Reset ]-----//
 *{
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
+
+//-----[ Initialize ]-----//
 
 html {
   background-color: #f4f4f4;
@@ -11,6 +15,7 @@ a {
   text-decoration: none;
 }
 
+//-----[ Header ]-----//
 
 h1 {
   font-family:"PassionSansPDbe-BookSmallCaps";
@@ -21,32 +26,47 @@ h1 {
   margin-bottom: -55px;
 }
 
+
+//-----[ Navigation ]-----//
+
 .link_all {
   padding-top: 34px;
   margin: 0;
 }
 
-.link_all a {
-  font-size: 45px;
-  color: #404040
-}
-
-.link_all li  {
+.link_all li {
   width: 200px;
   height: 200px;
   display: inline-block;
-}
-
-.link_all li{
   background-color: #fff;
   -webkit-transition: background-color 0.5s linear;
 }
 
-.link_all li a {
+.link_all a {
   display: block;
-  line-height: 200px;
-  -webkit-transition: color 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  background-repeat: no-repeat;
+  background-position: center 40px;
+  color: #404040;
+  font-size: 45px;
+  font-weight: bold;
+  height: 200px;
+  line-height: 250px;
 }
+.link_all a:hover { color: #fff; }
+
+.link_all .link1 a{ background-image: url('./img/blog.png'); }
+.link_all .link2 a{ background-image: url('./img/blog.png'); }
+.link_all .link3 a{ background-image: url('./img/blog.png'); }
+.link_all .link1:hover a{ background-image: url('./img/blog_white.png'); }
+.link_all .link2:hover a{ background-image: url('./img/blog_white.png'); }
+.link_all .link3:hover a{ background-image: url('./img/blog_white.png'); }
+.link_all .link1:hover{ background-color: #64c0d1; }
+.link_all .link2:hover{ background-color: #6dce9a; }
+.link_all .link3:hover{ background-color: #ff88c2; }
+
+
+//-----[  ]-----//
 
 #anderh {
   font-family: 'tendernessregular';
@@ -68,20 +88,6 @@ h1 {
   padding: 0 20px
 }
 
-.link_all a {
-  font-weight: bold;
-  content: "";
-  display: block;
-  margin: 0 auto;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  margin-bottom: 0.3em;
-}
-
-.link1 a:before {
-  background-image: url('./img/blog.svg');
-}
-
 /*
 .index#side nav .link1 a storong:before {
   background-image: url('./img/blog.svg');
@@ -92,23 +98,6 @@ h1 {
 }
 
 */
-
-
-.link_all a:hover {
-  color: #fff;
-}
-
-.link_all .link1:hover{
-  background-color: #64c0d1;
-}
-
-.link_all .link2:hover{
-  background-color: #6dce9a;
-}
-
-.link_all .link3:hover{
-  background-color: #ff88c2;
-}
 
 
 #side {
