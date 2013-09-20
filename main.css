@@ -40,11 +40,15 @@ h1 {
   display: inline-block;
   background-color: #fff;
   -webkit-transition: background-color 0.5s linear;
+  -moz-transition: background-color 0.5s linear;
+  -o-transition: background-color 0.5s linear;
 }
 
 .link_all a {
   display: block;
   -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
   background-repeat: no-repeat;
   background-position: center 40px;
   color: #404040;
