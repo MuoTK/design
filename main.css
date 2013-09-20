@@ -41,7 +41,11 @@ h1 {
 
 .link_all .link1,.link_all .link2,.link_all .link3 {
 	background-color: #fff;
-	-webkit-transition: background-color 0.5s linear;
+	-webkit-transition: background-color 0.2s linear;
+	-moz-transition: background-color 0.2s linear;
+	-o-transition: background-color 0.2s linear;
+	-ms-transition: background-color 0.2s linear;
+	transition: background-color 0.2s linear;
 }
 
 
