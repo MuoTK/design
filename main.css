@@ -36,9 +36,12 @@ h1 {
   letter-spacing: 0.06em;
   margin-top: 0px;
   /* margin-bottom: -55px; */
+  line-height: 1;
+  background: #0c0;
 }
 
 #underh {
+  background: #c00;
   font-family: 'MyTenderness';
   font-size: 28px;
   color: #999999;
