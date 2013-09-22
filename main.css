@@ -5,6 +5,18 @@
   padding: 0;
 }
 
+/*-----[ WebFont ]-----*/
+
+@font-face{
+  font-family: 'MyTenderness';
+  src: url('font/Tenderness-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'MyPassionSans'
+  src: url('font/PassionSansPDbe-BookSmallCa.woff') format('woff');
+}
+
+
 /*-----[ Initialize ]-----*/
 
 body {
@@ -18,12 +30,20 @@ a {
 /*-----[ Header ]-----*/
 
 h1 {
-  font-family: "PassionSansPDbe-BookSmallCaps";
+  font-family: 'MyPassionSans';
   color: rgb(102, 102, 102);
   font-size: 150px;
   letter-spacing: 0.06em;
   margin-top: 0px;
   margin-bottom: -55px;
+}
+
+#underh {
+  font-family: 'MyTenderness';
+  font-size: 28px;
+  color: #999999;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -73,14 +93,6 @@ h1 {
 
 
 /*-----[  ]-----*/
-
-#anderh {
-  font-family: 'tendernessregular';
-  font-size: 28px;
-  color: #999999;
-  padding: 0;
-  margin: 0;
-}
 
 .index {
   padding: 0;
