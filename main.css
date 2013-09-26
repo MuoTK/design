@@ -12,7 +12,7 @@
   src: url('font/Tenderness-webfont.woff') format('woff');
 }
 @font-face{
-  font-family: 'MyPassionSans';
+  font-family: 'MyPassionSans'
   src: url('font/PassionSansPDbe-BookSmallCa.woff') format('woff');
 }
 
@@ -30,7 +30,7 @@ a {
 /*-----[ Header ]-----*/
 
 h1 {
-  font-family: 'MyPassionSans';
+  font-family: 'Indie Flower', cursive;
   color: rgb(102, 102, 102);
   font-size: 150px;
   letter-spacing: 0.06em;
@@ -62,10 +62,10 @@ h1 {
   height: 200px;
   display: inline-block;
   background-color: #fff;
-	-webkit-transition: background-color 0.2s linear;
-	-moz-transition: background-color 0.2s linear;
-	-o-transition: background-color 0.2s linear;
-	-ms-transition: background-color 0.2s linear;
+  -webkit-transition: background-color 0.2s linear;
+  -moz-transition: background-color 0.2s linear;
+  -o-transition: background-color 0.2s linear;
+  -ms-transition: background-color 0.2s linear;
 }
 
 .link_all a {
