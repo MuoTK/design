@@ -1,0 +1,204 @@
+
+/*-----[ Reset ]-----*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*-----[ WebFont ]-----*/
+
+@font-face{
+  font-family: 'MyTenderness';
+  src: url('font/Tenderness-webfont.woff') format('woff');
+}
+@font-face{
+  font-family: 'MyPassionSans';
+  src: url('font/PassionSansPDbe-BookSmallCa.woff') format('woff');
+}
+
+
+/*-----[ Initialize ]-----*/
+
+body {
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*-----[ Header ]-----*/
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  color: rgb(102, 102, 102);
+  font-size: 150px;
+  letter-spacing: 0.06em;
+  margin-top: 0px;
+  /* margin-bottom: -55px; */
+  line-height: 1;
+  background: #0c0;
+}
+
+#underh {
+  background: #c00;
+  font-family: 'MyTenderness';
+  font-size: 28px;
+  color: #999999;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*-----[ Navigation ]-----*/
+
+.link_all {
+  padding-top: 60px;
+  margin: 0;
+}
+
+.link_all li {
+  width: 280px;
+  height: 200px;
+  display: inline-block;
+  background-color: #fff;
+  -webkit-transition: background-color 0.2s linear;
+  -moz-transition: background-color 0.2s linear;
+  -o-transition: background-color 0.2s linear;
+  -ms-transition: background-color 0.2s linear;
+}
+
+.link_all a {
+  display: block;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  background-repeat: no-repeat;
+  background-position: center 40px;
+  color: #404040;
+  font-size: 45px;
+  font-weight: bold;
+  height: 200px;
+  line-height: 250px;
+}
+.link_all a:hover { color: #fff; }
+
+.link_all .link1 a{ background-image: url('./img/about.png'); }
+.link_all .link2 a{ background-image: url('./img/blog.png'); }
+.link_all .link3 a{ background-image: url('./img/link.png'); }
+.link_all .link1:hover a{ background-image: url('./img/about_white.png'); }
+.link_all .link2:hover a{ background-image: url('./img/blog_white.png'); }
+.link_all .link3:hover a{ background-image: url('./img/link_white.png'); }
+.link_all .link1:hover{ background-color: #64c0d1; }
+.link_all .link2:hover{ background-color: #6dce9a; }
+.link_all .link3:hover{ background-color: #ff88c2; }
+
+
+/*-----[  ]-----*/
+
+.index {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.index#yoko {
+  padding: 0 20px
+}
+
+/*
+.index#side nav .link1 a storong:before {
+  background-image: url('./img/blog.svg');
+}
+
+.index#side nav .link1 a:hover storong:before {
+  background-image: url('./img/blog_white.svg');
+}
+
+*/
+
+
+#side {
+  padding: 2% 4% 4%;
+}
+
+@font-face {
+    font-family: 'tendernessregular';
+    src: url('Tenderness-webfont.eot');
+    src: url('Tenderness-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Tenderness-webfont.woff') format('woff'),
+         url('Tenderness-webfont.ttf') format('truetype'),
+         url('Tenderness-webfont.svg#tendernessregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  font-family:"PassionSansPDbe-BookSmallCaps";
+  src:url("PassionSansPDbe-BookSmallCa.eot?") format("eot"),
+  url("PassionSansPDbe-BookSmallCa.woff") format("woff"),
+  url("PassionSansPDbe-BookSmallCa.ttf") format("truetype"),
+  url("PassionSansPDbe-BookSmallCa.svg#PassionSansPDbe-BookSmallCaps") format("svg");
+  font-weight:normal;font-style:normal;
+}
+
+
+
+
+/*
+
+.link_all {
+  padding-left: 0px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.link_all:before,
+.link_all:after {
+    content: " ";
+    display: table;
+}
+.link_all:after {
+    clear: both;
+}
+.link_all {
+    *zoom: 1;
+}
+
+.link_all li{
+  position:relative;
+  float: left;
+  list-style: none;
+    padding: 30px;
+}
+
+.link1 {
+
+}
+
+.link2 {
+  
+}
+
+.link3 {
+  
+}
+
+ul {
+
+}
+
+li {
+  display: inline-block;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+li a {
+  display: inline-block;
+  margin-top: 10px;
+  width: 80%;
+  padding: 5px 8px;
+}
+*/
