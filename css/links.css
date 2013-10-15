@@ -1,0 +1,66 @@
+/*-----[ Reset ]-----*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*-----[ WebFont ]-----*/
+@font-face{
+  font-family: 'MyTenderness';
+  src: url('font/Tenderness-webfont.woff') format('woff');
+}
+
+/*-----[ Initialize ]-----*/
+body {
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*-----[ Header ]-----*/
+#header {
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+
+#title {
+  font-family: 'Indie Flower', cursive;
+  color: rgb(102, 102, 102);
+  font-size: 60px;
+  padding-left: 10px;
+  display: block;
+  float: left;
+  width: 200px;
+}
+
+#menulist {
+  color: #000000;
+  padding-top: 24px;
+  padding-right: 14px;
+  float: right;
+}
+
+#menulist li {
+  display: inline-block;
+  font-size: 27px;
+  border-radius: 2px;
+}
+
+.links {
+  background-color: #ff88c2;
+}
+
+.about, .blog {
+  background-color: #f4f4f4;
+  -webkit-transition: background-color 0.1s linear;
+  -moz-transition: background-color 0.1s linear;
+  -o-transition: background-color 0.1s linear;
+  -ms-transition: background-color 0.1s linear;
+}
+
+.about:hover{ background-color: #64c0d1; }
+.blog:hover{ background-color: #6dce9a; }
+
+/*-----[ Navigation ]-----*/
