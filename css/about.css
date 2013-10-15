@@ -30,7 +30,9 @@ a {
   color: rgb(102, 102, 102);
   font-size: 60px;
   padding-left: 10px;
-  display: inline;
+  display: block;
+  float: left;
+  width: 200px;
 }
 
 #menulist {
