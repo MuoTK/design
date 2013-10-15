@@ -20,19 +20,30 @@ a {
 }
 
 /*-----[ Header ]-----*/
+#header {
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+
 #title {
   font-family: 'Indie Flower', cursive;
   color: rgb(102, 102, 102);
-  font-size: 70px;
+  font-size: 60px;
+  padding-left: 10px;
   display: inline;
 }
 
-li {
-  display: inline-block;
+#menulist {
+  color: #000000;
+  padding-top: 24px;
+  padding-right: 14px;
+  float: right;
 }
 
 #menulist li {
-  font-size: 32px;
+  display: inline-block;
+  font-size: 27px;
+  border-radius: 2px;
 }
 
 .about {

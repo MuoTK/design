@@ -31,17 +31,18 @@ a {
 
 h1 {
   font-family: 'Indie Flower', cursive;
+  font-weight: bold;
   color: rgb(102, 102, 102);
   font-size: 150px;
   letter-spacing: 0.06em;
   margin-top: 0px;
-  /* margin-bottom: -55px; */
+  margin-bottom:-20px;
   line-height: 1;
-  background: #0c0;
+  /* background: #0c0; */
 }
 
 #underh {
-  background: #c00;
+  /* background: #c00; */
   font-family: 'MyTenderness';
   font-size: 28px;
   color: #999999;
@@ -53,7 +54,7 @@ h1 {
 /*-----[ Navigation ]-----*/
 
 .link_all {
-  padding-top: 60px;
+  padding-top: 35px;
   margin: 0;
 }
 
@@ -61,6 +62,7 @@ h1 {
   width: 280px;
   height: 200px;
   display: inline-block;
+  border-radius: 2px;
   background-color: #fff;
   -webkit-transition: background-color 0.2s linear;
   -moz-transition: background-color 0.2s linear;
@@ -178,11 +180,11 @@ h1 {
 }
 
 .link2 {
-  
+
 }
 
 .link3 {
-  
+
 }
 
 ul {
