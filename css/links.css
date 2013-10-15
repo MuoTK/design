@@ -42,17 +42,55 @@ a {
   float: right;
 }
 
+li {
+  font-family: 'News Cycle', sans-serif;
+}
+
 #menulist li {
   display: inline-block;
   font-size: 27px;
   border-radius: 2px;
+/*  height: 48px;*/
+/*  width: 125px;*/
 }
 
-.links {
+#menulist a {
+  color: #404040;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.about, .blog, .links {
+  padding-bottom: 3px;
+}
+
+#menulist a.homeIcon {
+  background:url('../img/home.png') no-repeat center center;
+  display: block;
+  overflow: hidden;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-indent: -9999px;
+  width: 26px;
+  height: 26px;
+}
+
+#menulist a.homeIcon:hover {
+  background:url('../img/home_pu.png') no-repeat center center;
+  display: block;
+  overflow: hidden;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-indent: -9999px;
+  width: 26px;
+  height: 26px;
+}
+
+.links a {
   background-color: #ff88c2;
 }
 
-.about, .blog {
+.about a, .blog a {
   background-color: #f4f4f4;
   -webkit-transition: background-color 0.1s linear;
   -moz-transition: background-color 0.1s linear;
@@ -60,7 +98,7 @@ a {
   -ms-transition: background-color 0.1s linear;
 }
 
-.about:hover{ background-color: #64c0d1; }
-.blog:hover{ background-color: #6dce9a; }
+.about a:hover{ background-color: #64c0d1; }
+.blog a:hover{ background-color: #6dce9a; }
 
 /*-----[ Navigation ]-----*/
