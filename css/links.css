@@ -48,16 +48,18 @@ li {
 
 #menulist li {
   display: inline-block;
+  text-align: center;
   font-size: 27px;
   border-radius: 2px;
-/*  height: 48px;*/
-/*  width: 125px;*/
 }
 
 #menulist a {
+  display: inline-block;
   color: #404040;
   padding-left: 5px;
   padding-right: 5px;
+  height: 48px;
+  width: 125px;
 }
 
 .about, .blog, .links {
