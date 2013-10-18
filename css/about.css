@@ -119,6 +119,9 @@ li {
   padding-top: 20px;
 }
 
+.world {
+  clear: left;
+}
 .world p {
   font-size: 15px;
   padding-left: 20px;
