@@ -101,30 +101,36 @@ li {
 
 /*-----[ MAIN ]-----*/
 .main {
-  padding-top: 40px;
-  padding-left: 7%;
-  padding-right: 7%;
+  padding: 40px 7%;
   overflow: hidden;
 }
 
-.main img {
+.main #secondary{
   float: left;
-  width: 240px;
-  margin-top: 10px;
-  margin-right: 80px;
+  width: 300px;
 }
 
-.word {
+.main #secondary #avatar{
+  cursor: pointer;
+}
+
+.main #secondary .word {
   clear: left;
   padding-top: 20px;
 }
 
-.word {
-  clear: left;
-}
-.word p {
+.main #secondary .word p {
   font-size: 15px;
   padding-left: 20px;
+}
+
+.main #content{
+
+  margin-left: 320px;
+}
+
+.main #content p{
+  padding-left: 30px;
 }
 
 h1 {
@@ -134,17 +140,13 @@ h1 {
 }
 
 .ja {
-  line-height: 1px;
   display: block;
   font-size: 18px;
-  padding-left: 350px;
 }
 
 .en {
-  line-height: 0px;
   display: block;
   font-size: 16px;
-  padding-left: 350px;
   padding-bottom: 8px;
 }
 
@@ -154,5 +156,7 @@ h1 {
   text-align: center;
   margin-top: 18px;
   border-top: 1px solid #ccc;
-  padding: 10px 0 0px;
+  padding: 10px 0 20px;
+  clear: both;
+  margin: 0 7%;
 }

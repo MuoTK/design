@@ -6,16 +6,16 @@
     <link rel="stylesheet" href="./css/about.css" />
     <link href='http://fonts.googleapis.com/css?family=News+Cycle:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-    <script language="JavaScript">
-num = 3;
-nme = "img/icon"
-exp = "png"
-cnt = 0;
-function changeImage() {
-  cnt++;
-  cnt %= num;
-  document.img.src = nme + cnt + "." + exp;
-}
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $('#avatar').click(function(){
+          next = parseInt($(this).attr('data-number')) + 1;
+          if(next == 3) next = 0;
+          $(this).attr('data-number', next);
+          $(this).attr('src', './img/icon' + next + '.png');
+        });
+      });
     </script>
     <title>ABOUT</title>
   </head>
@@ -32,26 +32,30 @@ function changeImage() {
       </nav>
     </div><!-- #header -->
     <div class="main">
-      <a href="JavaScript:changeImage()">
-        <img src="./img/icon0.png" name="img" width="240" height="240" class="icon" />
-      </a>
-      <div class="bio">
-        <h1>むおちけ - MuoTK</h1>
-        <p class="ja">こんにちは、むおちけっていいます。</p><br />
-        <p class="en">Hi, My name is MuoTK.</p><br/>
-        <p class="ja">一応今は高校生してます。</p><br />
-        <p class="en">I'm Japanese high school student.</p><br/>
-        <p class="ja">趣味はパソコンです。WEBデザインからプログラミング、</p><br />
-        <p class="en">My hobbies are computers. WEB design and Programming.</p><br/>
-        <p class="ja">パソコンで絵なんかも描いています。</p><br />
-        <p class="en">Also draw picture on a computer.</p>
-      </div><!-- .bio -->
-      <div class="word">
+      <div id="secondary">
+        <img id="avatar" data-number="0" src="./img/icon0.png" name="img" width="240" height="240" class="icon" />
+        <div class="word">
           <p>Linux Mint / Ruby / C#</p>
           <p>HTML / CSS / jQuery</p>
           <p>Vim / Sublime Text 2 / Minecraft</p>
         </div>
-      <div id="footer">Copyright 2013, Citron.com</div>
+      </div><!-- /#side -->
+      <div id="content">
+        <h1>むおちけ - MuoTK</h1>
+        <p class="ja">こんにちは、むおちけっていいます。</p>
+        <p class="en">Hi, My name is MuoTK.</p>
+        <p class="ja">一応今は高校生してます。</p>
+        <p class="en">I'm Japanese high school student.</p>
+        <p class="ja">趣味はパソコンです。WEBデザインからプログラミング、</p>
+        <p class="en">My hobbies are computers. WEB design and Programming.</p>
+        <p class="ja">パソコンで絵なんかも描いています。</p>
+        <p class="en">Also draw picture on a computer.</p>
+        <p class="ja">text text text</p>
+        <p class="en">text text text</p>
+        <p class="ja">text text text</p>
+        <p class="en">text text text</p>
+      </div><!-- .bio -->
     </div><!-- .main -->
+    <div id="footer">Copyright 2013, Citron.com</div>
   </body>
 </html>
