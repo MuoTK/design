@@ -66,6 +66,7 @@ h1 {
   border-radius: 2px;
   font-family: 'Prosto One', cursive;
   background-color: #fff;
+  position: relative;
   -webkit-transition: background-color 0.2s linear;
   -moz-transition: background-color 0.2s linear;
   -o-transition: background-color 0.2s linear;
@@ -86,25 +87,36 @@ h1 {
   height: 200px;
   line-height: 250px;
 }
-.link_all a:hover { color: #fff; }
+.link_all a:hover {
+  color: #fff;
+  background-image: none;
+}
 
-
-.link_all .link1 a{
-  width: 50px;
+.link_all li a:after {
+  content: "";
+  display: block;
+  width: 280px;
   height: 50px;
-  background-image: url('../img/aboutW.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center top;
+  top: 40px;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition:    opacity 0.5s;
+  -o-transition:      opacity 0.5s;
 }
-.link_all .link1:hover a{
-  background-position: 0 bottom;
+.link_all li a:hover:after {
+  opacity: 1;
 }
 
-
-/*.link_all .link1 a{ background-image: url('../img/about.png'); }*/
+.link_all .link1 a{ background-image: url('../img/about.png'); }
 .link_all .link2 a{ background-image: url('../img/blog.png'); }
 .link_all .link3 a{ background-image: url('../img/link.png'); }
-/*.link_all .link1:hover a{ background-image: url('../img/about_white.png'); }*/
-.link_all .link2:hover a{ background-image: url('../img/blog_white.png'); }
-.link_all .link3:hover a{ background-image: url('../img/link_white.png'); }
+.link_all .link1 a:after{ background-image: url('../img/about_white.png'); }
+.link_all .link2 a:after{ background-image: url('../img/blog_white.png'); }
+.link_all .link3 a:after{ background-image: url('../img/link_white.png'); }
 .link_all .link1:hover{ background-color: #64c0d1; }
 .link_all .link2:hover{ background-color: #6dce9a; }
 .link_all .link3:hover{ background-color: #ff88c2; }
