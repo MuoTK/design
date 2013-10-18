@@ -84,7 +84,6 @@ li {
   height: 26px;
 }
 
-
 .about a {
   background-color: #64c0d1;
 }
@@ -115,31 +114,35 @@ li {
   margin-right: 80px;
 }
 
-#word {
+.word {
+  clear: left;
   padding-top: 20px;
+}
+
+.world p {
+  font-size: 15px;
+  padding-left: 20px;
 }
 
 h1 {
   font-weight: bold;
   font-size: 34px;
   margin-bottom: 10px;
-  font-family: 'メイリオ';
 }
 
-h2 {
+.ja {
+  line-height: 1px;
+  display: block;
   font-size: 18px;
   padding-left: 350px;
 }
 
-h3 {
+.en {
+  line-height: 0px;
+  display: block;
   font-size: 16px;
   padding-left: 350px;
   padding-bottom: 8px;
-}
-
-h4 {
-  font-size: 15px;
-  padding-left: 20px;
 }
 
 #footer {

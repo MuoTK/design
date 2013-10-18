@@ -88,10 +88,21 @@ h1 {
 }
 .link_all a:hover { color: #fff; }
 
-.link_all .link1 a{ background-image: url('../img/about.png'); }
+
+.link_all .link1 a{
+  width: 50px;
+  height: 50px;
+  background-image: url('../img/aboutW.png');
+}
+.link_all .link1:hover a{
+  background-position: 0 bottom;
+}
+
+
+/*.link_all .link1 a{ background-image: url('../img/about.png'); }*/
 .link_all .link2 a{ background-image: url('../img/blog.png'); }
 .link_all .link3 a{ background-image: url('../img/link.png'); }
-.link_all .link1:hover a{ background-image: url('../img/about_white.png'); }
+/*.link_all .link1:hover a{ background-image: url('../img/about_white.png'); }*/
 .link_all .link2:hover a{ background-image: url('../img/blog_white.png'); }
 .link_all .link3:hover a{ background-image: url('../img/link_white.png'); }
 .link_all .link1:hover{ background-color: #64c0d1; }
