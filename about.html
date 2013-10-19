@@ -14,6 +14,10 @@
           if(next == 3) next = 0;
           $(this).attr('data-number', next);
           $(this).attr('src', './img/icon' + next + '.png');
+          moge = [
+            '<a href="http://twitter.com/yaplus/">やぷらす</a>','<a href="http://twitter.com/***/">なったん</a>','<a href="http://twitter.com/k_izanagi/">イザナギ</a>'
+          ]
+          $('#make').html(moge[next]);
         });
       });
     </script>
@@ -34,6 +38,9 @@
     <div class="main">
       <div id="secondary">
         <img id="avatar" data-number="0" src="./img/icon0.png" name="img" width="240" height="240" class="icon" />
+        <div id="make">
+          <a href="http://twitter.com/yaplus/">やぷらす</a>
+        </div>
         <div class="word">
           <p>Linux Mint / Ruby / C#</p>
           <p>HTML / CSS / jQuery</p>
@@ -50,10 +57,6 @@
         <p class="en">My hobbies are computers. WEB design and Programming.</p>
         <p class="ja">パソコンで絵なんかも描いています。</p>
         <p class="en">Also draw picture on a computer.</p>
-        <p class="ja">text text text</p>
-        <p class="en">text text text</p>
-        <p class="ja">text text text</p>
-        <p class="en">text text text</p>
       </div><!-- .bio -->
     </div><!-- .main -->
     <div id="footer">Copyright 2013, Citron.com</div>
