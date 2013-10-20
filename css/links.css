@@ -124,13 +124,13 @@ body#height {
   cursor: pointer;
 }
 
-#navi li:hover {
-  background-color: #E5E6E6;
-}
-
 /*-----[ MAIN ]-----*/
 #main {
   margin-left:120px;
+}
+
+.active, .hover {
+  background-color: #000;  /*#E5E6E6;*/
 }
 
 #blog, #anoter, #contact {
