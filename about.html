@@ -11,11 +11,14 @@
       $(function(){
         $('#avatar').click(function(){
           next = parseInt($(this).attr('data-number')) + 1;
-          if(next == 3) next = 0;
+          if(next == 4) next = 0;
           $(this).attr('data-number', next);
-          $(this).attr('src', './img/icon' + next + '.png');
+          $(this).attr('src', './img/about/icons/icon' + next + '.png');
           moge = [
-            '<a href="http://twitter.com/yaplus/">やぷらす</a>','<a href="http://twitter.com/***/">なったん</a>','<a href="http://twitter.com/k_izanagi/">イザナギ</a>'
+            '<a href="http://twitter.com/yaplus/">やぷらす</a>',
+            '<a href="http://twitter.com/***/">なったん</a>',
+            '<a href="http://twitter.com/k_izanagi/">イザナギ</a>',
+            '<a href="http://twitter.com/***/">いちご</a>'
           ]
           $('#make').html(moge[next]);
         });
@@ -37,7 +40,7 @@
     </div><!-- #header -->
     <div class="main">
       <div id="secondary">
-        <img id="avatar" data-number="0" src="./img/icon0.png" name="img" width="240" height="240" class="icon" />
+        <img id="avatar" data-number="0" src="./img/about/icons/icon0.png" name="img" width="240" height="240" class="icon" />
         <div id="make">
           <a href="http://twitter.com/yaplus/">やぷらす</a>
         </div>

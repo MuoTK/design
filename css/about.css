@@ -103,11 +103,13 @@ li {
 .main {
   padding: 40px 7%;
   overflow: hidden;
+  background-color: #fff;
 }
 
 .main #secondary{
   float: left;
-  width: 300px;
+  width: 265px;
+  text-align: center;
 }
 
 .main #secondary #avatar{
@@ -134,14 +136,15 @@ li {
 
 #make {
   padding-top: 10px;
-  padding-left: 75px;
+  /*padding-left: 75px;*/
 }
 
 #make a {
-  padding: 2px 5px;
-  color:#FF0099;
-  background-color: rgb(204, 204, 204);
-  border-radius: 7px;
+  padding: 0px 2px;
+  color:#d14;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 3px;
 }
 
 .ja {
