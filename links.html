@@ -9,7 +9,19 @@
     <title>ABOUT</title>
     <script type="text/javascript">
       $ (function() {
-        $ (".content:not('#main#sns + .main_content')").hide();
+        $ ("#main.main_content:not('#navi.active + #main.main_content')").hide();
+        $("#navi li").hover(function() {
+          $ (this).addClass("hover")
+        },
+        function() {
+          $(this).removeClass("hover")
+        });
+        $ ("#navi li").click(function() {
+           $("#navi li").removeClass("active");
+           $ (this).addClass("active");
+           $("#main.main_content:not('#navi.active + #main.main_content')").fadeOut();
+        $ ("#navi.active + #main.main_content").fadeIn();
+        });
       }
     </script>
   </head>
@@ -28,7 +40,7 @@
     <div id="navi">
       <nav>
         <ul>
-          <li class="sns">SNS</li>
+          <li class="sns active">SNS</li>
           <li class="blog">Blog</li>
           <li class="another">Another</li>
           <li class="contact">Contact</li>
