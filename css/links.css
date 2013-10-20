@@ -121,6 +121,7 @@ body#height {
   text-align: center;
   width: 100%;
   line-height: 120px;
+  cursor: pointer;
 }
 
 #navi li:hover {
@@ -129,7 +130,7 @@ body#height {
 
 /*-----[ MAIN ]-----*/
 #main {
-
+  float: left;
 }
 
 #blog, #anoter, #contact {
@@ -147,6 +148,7 @@ body#height {
   background-color: #2d8080;
   border: 10px solid #2d8080;
   padding-top: 85px;
+  cursor: pointer;
 }
 
 #twitter:hover {
