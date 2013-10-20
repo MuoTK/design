@@ -78,7 +78,7 @@ a {
 }
 
 #menulist a.homeIcon:hover {
-  background:url('../img/home_pu.png') no-repeat center center;
+  opacity: .6;
   display: block;
   overflow: hidden;
   padding-left: 12px;
@@ -110,15 +110,19 @@ body#height {
 #navi {
   width: 120px;
   height: 100%;
-  background-color: rgba(204, 204, 204, 205);
+  background-color: #A4A4A4;
 }
 
 #navi li {
+  display: block;
   text-align: center;
   width: 100%;
-  height: 120px;
+  line-height: 120px;
 }
 
+#navi li:hover {
+      background-color: rgba(#E6E6E6);
+}
 
 /*-----[ MAIN ]-----*/
 #main {
