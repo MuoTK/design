@@ -41,6 +41,9 @@ h1 {
   line-height: 1;
   /* background: #0c0; */
 }
+h1 span{
+  color: #ff6600;
+}
 
 #underh {
   /* background: #c00; */
