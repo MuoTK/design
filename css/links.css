@@ -112,8 +112,8 @@ body#height {
 
 #navi {
   width: 120px;
-  height: 100%;
   background-color: #A4A4A4;
+  float: left;
 }
 
 #navi li {
@@ -130,7 +130,7 @@ body#height {
 
 /*-----[ MAIN ]-----*/
 #main {
-  float: left;
+  margin-left:120px;
 }
 
 #blog, #anoter, #contact {
