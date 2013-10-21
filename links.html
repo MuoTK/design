@@ -7,22 +7,33 @@
     <link href='http://fonts.googleapis.com/css?family=News+Cycle:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <title>ABOUT</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript">
-      $ (function() {
-        $ ("#main.main_content:not('#navi.active + #main.main_content')").hide();
-        $("#navi li").hover(function() {
-          $ (this).addClass("hover")
-        },
-        function() {
-          $(this).removeClass("hover")
+      $(function() {
+        $("#main.tab_content:not('#navi.active + #main.tab_content')").hide();
+
+        // It can be replaced with css. Not need to use JS.
+        // $("#navi li").hover(function() {
+        //   $ (this).addClass("hover")
+        // },
+        // function() {
+        //   $(this).removeClass("hover");
+        // });
+
+        $("#main .tab_content").hide();
+        var toggle_tab = function() {
+          // get active tab
+          active_tab = $("#navi li.active");
+          $("#main .tab_content").fadeOut('fast');
+          $("#" + active_tab.attr('data-tab')).fadeIn('fast');
+        }
+        $("#navi li").click(function(){
+          $("#navi li").removeClass('active');
+          $(this).addClass('active');
+          toggle_tab();
         });
-        $ ("#navi li").click(function() {
-           $("#navi li").removeClass("active");
-           $ (this).addClass("active");
-           $("#main.main_content:not('#navi.active + #main.main_content')").fadeOut();
-        $ ("#navi.active + #main.main_content").fadeIn();
-        });
-      }
+        toggle_tab();
+      });
     </script>
   </head>
   <body class="index">
@@ -40,43 +51,43 @@
     <div id="navi">
       <nav>
         <ul>
-          <li class="sns active">SNS</li>
-          <li class="blog">Blog</li>
-          <li class="another">Another</li>
-          <li class="contact">Contact</li>
+          <li data-tab="sns" class="sns active">SNS</li>
+          <li data-tab="blog" class="blog">Blog</li>
+          <li data-tab="another" class="another">Another</li>
+          <li data-tab="contact" class="contact">Contact</li>
         </ul>
       </nav>
     </div><!-- #navi -->
     <div id="main">
 
-        <div id="sns" class="main_content">
-          <div class="caption">
-            <h2>ありのままの自分を</h2>
-            <p>僕が使っているSNS一覧です。</p>
-            <p>主に使っているのはTwitterですが、他2つにも1日3, 4回は訪れています。</p>
-          </div>
-          <div class="block">
-            <div id="twitter">Twitter</div>
-            <div id="adn">App.net</div>
-            <div id="lingr">Lingr</div>
-          </div>
+      <div id="sns" class="tab_content">
+        <div class="caption">
+          <h2>ありのままの自分を</h2>
+          <p>僕が使っているSNS一覧です。</p>
+          <p>主に使っているのはTwitterですが、他2つにも1日3, 4回は訪れています。</p>
+        </div>
+        <div class="block">
+          <div id="twitter">Twitter</div>
+          <div id="adn">App.net</div>
+          <div id="lingr">Lingr</div>
+        </div>
       </div>
 
-      <div id="blog" class="main_content">
+      <div id="blog" class="tab_content">
         <div class="caption">
           <h2>ペンをとる</h2>
           <p>日常の日記や、備忘用ブログです。</p>
         </div>
       </div>
 
-      <div id="anoter" class="main_content">
+      <div id="another" class="tab_content">
         <div class="caption">
           <h2>もっともっと、</h2>
           <p>僕が他につかっているサービス一覧です。</p>
         </div>
       </div>
 
-      <div id="contact" class="main_content">
+      <div id="contact" class="tab_content">
         <div class="caption">
           <h2>(´・ェ・`)☎┐</h2>
           <p>連絡先です。</p>
