@@ -114,15 +114,15 @@ h1 span{
   opacity: 1;
 }
 
-.link_all .link1 a{ background-image: url('../img/home/about.png'); }
-.link_all .link2 a{ background-image: url('../img/home/blog.png'); }
-.link_all .link3 a{ background-image: url('../img/home/links.png'); }
-.link_all .link1 a:after{ background-image: url('../img/home/about_white.png'); }
-.link_all .link2 a:after{ background-image: url('../img/home/blog_white.png'); }
-.link_all .link3 a:after{ background-image: url('../img/home/links_white.png'); }
-.link_all .link1:hover{ background-color: #64c0d1; }
-.link_all .link2:hover{ background-color: #6dce9a; }
-.link_all .link3:hover{ background-color: #ff88c2; }
+.link_all #link1 a{ background-image: url('../img/home/about.png'); }
+.link_all #link2 a{ background-image: url('../img/home/blog.png'); }
+.link_all #link3 a{ background-image: url('../img/home/links.png'); }
+.link_all #link1 a:after{ background-image: url('../img/home/about_white.png'); }
+.link_all #link2 a:after{ background-image: url('../img/home/blog_white.png'); }
+.link_all #link3 a:after{ background-image: url('../img/home/links_white.png'); }
+.link_all #link1:hover{ background-color: #64c0d1; }
+.link_all #link2:hover{ background-color: #6dce9a; }
+.link_all #link3:hover{ background-color: #ff88c2; }
 
 
 /*-----[  ]-----*/
@@ -140,11 +140,11 @@ h1 span{
 }
 
 /*
-.index#side nav .link1 a storong:before {
+.index#side nav #link1 a storong:before {
   background-image: url('./img/blog.svg');
 }
 
-.index#side nav .link1 a:hover storong:before {
+.index#side nav #link1 a:hover storong:before {
   background-image: url('./img/blog_white.svg');
 }
 
@@ -203,15 +203,15 @@ h1 span{
     padding: 30px;
 }
 
-.link1 {
+#link1 {
 
 }
 
-.link2 {
+#link2 {
 
 }
 
-.link3 {
+#link3 {
 
 }
 
