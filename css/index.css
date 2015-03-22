@@ -1,17 +1,17 @@
 
 /*-----[ Reset ]-----*/
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 /*-----[ WebFont ]-----*/
 
-@font-face{
+@font-face {
   font-family: 'MyTenderness';
   src: url('../font/Tenderness-webfont.woff') format('woff');
 }
-@font-face{
+@font-face {
   font-family: 'MyPassionSans';
   src: url('../font/PassionSansPDbe-BookSmallCa.woff') format('woff');
 }
