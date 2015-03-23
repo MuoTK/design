@@ -55,23 +55,18 @@ body#height {
 /* #48aaac #2d8080 #82f8f8 */
 
 .block {
+  float: left;
   padding-top: 35px;
 }
 
-.block_sns {
-  text-align: center;
-  float: left;
-  width: 102px;
-  height: 15px;
-  display: block;
-  background-color: #2d8080;
-  border: 10px solid #2d8080;
-  padding-top: 85px;
+.font_around {
   cursor: pointer;
+  margin-bottom: 50px;
 }
 
-.block_sns:hover {
-  border: 10px solid #82f8f8;
+#nakami {
+  padding-top: 35px;
+  padding-left: 170px;
 }
 
 /*-----------------------------------Blog-----------------------------------*/
@@ -82,7 +77,3 @@ body#height {
 
 
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
-
-#sub {
-
-}

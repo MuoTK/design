@@ -50,17 +50,9 @@
   padding-left: 30px;
 }
 
-#make {
+.font_around {
   padding-top: 10px;
   /*padding-left: 75px;*/
-}
-
-#make a {
-  padding: 0px 2px;
-  color:#d14;
-  background-color: #f7f7f9;
-  border: 1px solid #e1e1e8;
-  border-radius: 3px;
 }
 
 .ja {
