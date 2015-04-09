@@ -34,6 +34,19 @@
           toggle_tab();
         });
         toggle_tab();
+
+        // Toggle hide/show sns account block
+        // -----
+        // show first item
+        $("#nakami p").first().show();
+        $("#sns-list div").click(function(){
+          // get id of the element to show
+          id = $(this).attr('data-id');
+          // hide all items
+          $("#nakami p").hide();
+          // show item
+          $("#nakami p#" + id).show();
+        });
       });
     </script>
   </head>
@@ -67,15 +80,15 @@
           <p>僕が使っているSNS一覧です。</p>
           <p>主に使っているのはTwitterですが、他2つにも1日3, 4回は訪れています。</p>
         </div>
-        <div class="block">
-          <div id="twitter" class="font_around"><a>Twitter</a></div>
-          <div id="adn" class="font_around"><a>App.net</a></div>
-          <div id="lingr" class="font_around"><a>Lingr</a></div>
+        <div id="sns-list" class="block">
+          <div data-id="twitter" class="font_around"><a>Twitter</a></div>
+          <div data-id="adn"     class="font_around"><a>App.net</a></div>
+          <div data-id="lingr"   class="font_around"><a>Lingr</a></div>
         </div>
         <div id="nakami">
-          <p class="sns">Twitter Account</p>
-          <p class="blog">Blog URL</p>
-          <p class="another">Another Account, Site</p>
+          <p id="twitter" class="sns">Twitter Account</p>
+          <p id="adn"     class="blog">Blog URL</p>
+          <p id="lingr"   class="another">Another Account, Site</p>
         </div>
       </div>
 
