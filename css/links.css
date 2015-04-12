@@ -64,9 +64,13 @@ body#height {
   margin-bottom: 50px;
 }
 
-#nakami {
+.ButtonContent {
   padding-top: 35px;
   padding-left: 170px;
+}
+
+.nakami {
+  margin-bottom: 50px;
 }
 
 /*-----------------------------------Blog-----------------------------------*/
