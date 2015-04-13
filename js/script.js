@@ -31,8 +31,17 @@ $(function() {
           // get id of the element to show
           id = $(this).attr('data-id');
           // hide all items
-          $("#nakami p").hide();
+          $(".nakami").hide();
           // show item
-          $("#nakami p#" + id).show();
+          $(".nakami #" + id).show();
+        });
+
+        $(".block div").click(function(){
+          // get id of the element to show
+          id = $(this).attr('data-id');
+          // hide all items
+          $(".ButtnContent p").hide();
+          // show item
+          $(".ButtnContent p#" + id).show();
         });
       });
