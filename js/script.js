@@ -31,17 +31,17 @@ $(function() {
           // get id of the element to show
           id = $(this).attr('data-id');
           // hide all items
-          $(".ButtonContent").hide();
+          $("#nakami-list1 p").hide();
           // show item
-          $(".ButtonContent #" + id).show();
+          $("#nakami-list1 #" + id).show();
         });
 
         $(".block div").click(function(){
           // get id of the element to show
           id = $(this).attr('data-id');
           // hide all items
-          $(".ButtonContent p").hide();
+          $("#nakami-list2 p").hide();
           // show item
-          $(".ButtonContent p#" + id).show();
+          $("#nakami-list2 p#" + id).show();
         });
       });
