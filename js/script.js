@@ -31,9 +31,9 @@ $(function() {
           // get id of the element to show
           id = $(this).attr('data-id');
           // hide all items
-          $(".nakami").hide();
+          $(".ButtnContent").hide();
           // show item
-          $(".nakami #" + id).show();
+          $(".ButtnContent #" + id).show();
         });
 
         $(".block div").click(function(){
