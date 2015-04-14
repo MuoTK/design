@@ -26,7 +26,8 @@ $(function() {
         // Toggle hide/show sns account block
         // -----
         // show first item
-        $(".ButtonContent p").first().show();
+        $("#nakami-list1 p").first().show();
+        $("#nakami-list2 p").first().show();
         $("#sns-list1 div").click(function(){
           // get id of the element to show
           id = $(this).attr('data-id');
@@ -42,6 +43,6 @@ $(function() {
           // hide all items
           $("#nakami-list2 p").hide();
           // show item
-          $("#nakami-list2 p#" + id).show();
+          $("#nakami-list2 #" + id).show();
         });
       });
