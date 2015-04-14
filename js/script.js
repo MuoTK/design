@@ -26,22 +26,22 @@ $(function() {
         // Toggle hide/show sns account block
         // -----
         // show first item
-        $(".ButtnContent p").first().show();
-        $("#sns-list div").click(function(){
+        $(".ButtonContent p").first().show();
+        $("#sns-list1 div").click(function(){
           // get id of the element to show
           id = $(this).attr('data-id');
           // hide all items
-          $(".ButtnContent").hide();
+          $(".ButtonContent").hide();
           // show item
-          $(".ButtnContent #" + id).show();
+          $(".ButtonContent #" + id).show();
         });
 
         $(".block div").click(function(){
           // get id of the element to show
           id = $(this).attr('data-id');
           // hide all items
-          $(".ButtnContent p").hide();
+          $(".ButtonContent p").hide();
           // show item
-          $(".ButtnContent p#" + id).show();
+          $(".ButtonContent p#" + id).show();
         });
       });
