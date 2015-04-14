@@ -26,7 +26,7 @@ $(function() {
         // Toggle hide/show sns account block
         // -----
         // show first item
-        $("#nakami p").first().show();
+        $(".ButtnContent p").first().show();
         $("#sns-list div").click(function(){
           // get id of the element to show
           id = $(this).attr('data-id');
