@@ -64,21 +64,9 @@ body#height {
   margin-bottom: 50px;
 }
 
-.ButtonContent {
+#nakami {
   padding-top: 35px;
   padding-left: 170px;
-}
-
-<<<<<<< HEAD
-.nakami {
-  margin-bottom: 50px;
-}
-
-.nakami p {
-=======
-#nakami p {
->>>>>>> 1dfb8651191e29d691245318ed678519c897e081
-  display: none;
 }
 
 /*-----------------------------------Blog-----------------------------------*/
