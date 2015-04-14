@@ -64,10 +64,16 @@ body#height {
   margin-bottom: 50px;
 }
 
-#nakami {
+#nakami-list1, #nakami-list2 {
   padding-top: 35px;
   padding-left: 170px;
 }
+
+#nakami-list1 p, #nakami-list2 p {
+  display: none;
+}
+
+
 
 /*-----------------------------------Blog-----------------------------------*/
 

@@ -27,7 +27,6 @@ $(function() {
         // -----
         // show first item
         $("#nakami-list1 p").first().show();
-        $("#nakami-list2 p").first().show();
         $("#sns-list1 div").click(function(){
           // get id of the element to show
           id = $(this).attr('data-id');
@@ -37,7 +36,8 @@ $(function() {
           $("#nakami-list1 #" + id).show();
         });
 
-        $(".block div").click(function(){
+        $("#nakami-list2 p").first().show();
+        $("#sns-list2 div").click(function(){
           // get id of the element to show
           id = $(this).attr('data-id');
           // hide all items
