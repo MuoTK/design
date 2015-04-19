@@ -55,18 +55,20 @@ body#height {
 /* #48aaac #2d8080 #82f8f8 */
 
 .block {
-  float: left;
+/*  float: left;*/
   padding-top: 35px;
 }
 
 .font_around {
+    display: inline-block;
   cursor: pointer;
-  margin-bottom: 50px;
+/*  margin-bottom: 50px;*/
 }
 
 #nakami-list1, #nakami-list2 {
   padding-top: 35px;
-  padding-left: 170px;
+  padding-left: 40px;
+  float: left;
 }
 
 #nakami-list1 p, #nakami-list2 p {
@@ -76,6 +78,20 @@ body#height {
 
 
 /*-----------------------------------Blog-----------------------------------*/
+
+.blog_title {
+    width: 60%;
+    font-size: 120%;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #222222;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.blog_url {
+    margin-top: 7px;
+    margin-left: 100px;
+}
 
 /*-----------------------------------Anoter-----------------------------------*/
 
