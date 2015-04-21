@@ -60,9 +60,19 @@ body#height {
 }
 
 .font_around {
-    display: inline-block;
+  text-align: center;
+  display: inline-block;
   cursor: pointer;
+  width: 70px;
+  color:#404040;
+  background-color: #FFBBFF;
+  border: 2px solid #FF99FF;
 /*  margin-bottom: 50px;*/
+}
+
+.font_around:hover {
+  background-color: #fff;
+  border: 2px solid #FF99FF;
 }
 
 #nakami-list1, #nakami-list2 {

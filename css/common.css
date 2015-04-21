@@ -101,11 +101,3 @@ h1 span{
 .about a:hover { background-color: #64c0d1; }
 .blog a:hover { background-color: #6dce9a; }
 .links a:hover { background-color: #ff88c2; }
-
-.font_around a {
-  padding: 0px 2px;
-  color:#d14;
-  background-color: #f7f7f9;
-  border: 1px solid #e1e1e8;
-  border-radius: 3px;
-}
