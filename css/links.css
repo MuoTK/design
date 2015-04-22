@@ -89,14 +89,15 @@ body#height {
   float: left;
   text-align: center;
   padding-top: 3px;
-  position:relative;
 }
 
 #nakami-list1 p, #nakami-list2 p {
   display: none;
-  position:absolute;
-  top:50%;
-  left:50%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 
