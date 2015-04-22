@@ -68,6 +68,7 @@ body#height {
   background-color: #FFBBFF;
   border: 2px solid #FF99FF;
 /*  margin-bottom: 50px;*/
+  margin-right: 5px;
 }
 
 .font_around:hover {
@@ -75,14 +76,27 @@ body#height {
   border: 2px solid #FF99FF;
 }
 
+#nakami-list1 {
+  width: 232px;
+}
+
+#nakami-list2 {
+  width: 307px;
+}
+
 #nakami-list1, #nakami-list2 {
-  padding-top: 35px;
-  padding-left: 40px;
+  height: 54px;
   float: left;
+  text-align: center;
+  padding-top: 3px;
+  position:relative;
 }
 
 #nakami-list1 p, #nakami-list2 p {
   display: none;
+  position:absolute;
+  top:50%;
+  left:50%;
 }
 
 
