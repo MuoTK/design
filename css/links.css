@@ -57,6 +57,7 @@ body#height {
 .block {
 /*  float: left;*/
   padding-top: 35px;
+  padding-bottom: 5px;
 }
 
 .font_around {
@@ -76,6 +77,10 @@ body#height {
   border: 2px solid #FF99FF;
 }
 
+.suspend {
+  font-size: 80%;
+}
+
 #nakami-list1 {
   width: 232px;
 }
@@ -85,10 +90,9 @@ body#height {
 }
 
 #nakami-list1, #nakami-list2 {
-  height: 54px;
+  height: 90px;
   float: left;
   text-align: center;
-  padding-top: 3px;
 }
 
 #nakami-list1 p, #nakami-list2 p {
@@ -100,6 +104,10 @@ body#height {
   transform: translateY(-50%);
 }
 
+#a9 {
+  text-decoration:line-through;
+}
+
 
 
 /*-----------------------------------Blog-----------------------------------*/
@@ -107,7 +115,7 @@ body#height {
 .blog_title {
     width: 60%;
     font-size: 120%;
-    padding-bottom: 2px;
+    /*padding-bottom: 2px;*/
     border-bottom: 1px solid #222222;
     margin-top: 30px;
     margin-left: 15px;
