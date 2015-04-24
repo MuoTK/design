@@ -85,25 +85,6 @@ body#height {
   width: 232px;
 }
 
-#nakami-list2 {
-  width: 307px;
-}
-
-#nakami-list1, #nakami-list2 {
-  height: 90px;
-  float: left;
-  text-align: center;
-}
-
-#nakami-list1 p, #nakami-list2 p {
-  display: none;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
 #a9 {
   text-decoration:line-through;
 }
@@ -128,7 +109,31 @@ body#height {
 
 /*-----------------------------------Anoter-----------------------------------*/
 
+#nakami-list2 {
+  width: 307px;
+}
+
 /*-----------------------------------Contact-----------------------------------*/
 
+#nakami-contact {
+  width: 232px;
+}
+
+/*-----------------------------------Common-----------------------------------*/
+
+#nakami-list1, #nakami-list2, #nakami-contact {
+  height: 90px;
+  float: left;
+  text-align: center;
+}
+
+#nakami-list1 p, #nakami-list2 p, #nakami-contact p {
+  display: none;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
