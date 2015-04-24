@@ -45,4 +45,14 @@ $(function() {
           // show item
           $("#nakami-list2 #" + id).show();
         });
+
+        $("#nakami-contact p").first().show();
+        $("#contact-list div").click(function(){
+          // get id of the element to show
+          id = $(this).attr('data-id');
+          // hide all items
+          $("#nakami-contact p").hide();
+          // show item
+          $("#nakami-contact #" + id).show();
+        });
       });
